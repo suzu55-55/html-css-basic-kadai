@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* body全体の設定 */
+html {
+  font-size: 20px; /* ルート要素のフォントサイズを20pxに */
+}
+
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center; /* すべてのテキストを中央寄せ */
+  margin: 0;
+  padding: 0;
+}
+
+/* h1（MY PROFILE）の装飾 */
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem; /* ルート要素の2倍（=40px） */
+  letter-spacing: 1.2em; /* 文字間を文字サイズの1.2倍に */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3); /* 影を付ける（自由） */
+  border-bottom: 3px solid rgb(115, 115, 114); /* 下線 */
+  margin-bottom: 20px;
+}
+
+/* 色指定 */
+.blue { color: skyblue; }
+.pink { color: rgb(255, 192, 203); }
+
+/* 見出しの色指定 */
+.pink-title { color: rgb(255, 192, 203); }
+.blue-title { color: skyblue; }
+
+/* #basic内の特定のpだけ太字にする */
+#basic p strong {
+  font-weight: bold;
+}
+
+/* それ以外のpは通常の太さ */
+p {
+  font-weight: normal;
+}
